@@ -64,8 +64,8 @@ Add a new JSON File to the root of the project, call it `typings.json` then copy
 ```js
 {
   "ambientDependencies": {
-    "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#4de74cb527395c13ba20b438c3a7a419ad931f1c",
-    "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#d594ef506d1efe2fea15f8f39099d19b39436b71"
+    "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#7de6c3dd94feaeb21f20054b9f30d5dabc5efabd",
+    "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#7de6c3dd94feaeb21f20054b9f30d5dabc5efabd"
   }
 }
 
@@ -117,17 +117,16 @@ Add a new NPM Configuration File to the root of the project. Keep the name `pack
   },
   "license": "ISC",
   "dependencies": {
-    "angular2": "2.0.0-beta.9",
+    "angular2": "2.0.0-beta.12",
     "systemjs": "0.19.24",
-    "es6-promise": "^3.0.2",
-    "es6-shim": "^0.33.3",
+    "es6-shim": "^0.35.0",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.2",
-    "zone.js": "0.5.15"
+    "zone.js": "0.6.6"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "typings": "^0.7.5"
+    "typings": "^0.7.9"
   }
 }
 
